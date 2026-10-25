@@ -1,0 +1,21 @@
+{
+  "name": "jaago",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Jaago — panchang and family alarm app",
+  "scripts": {
+    "setup:android": "npx cap add android && node scripts/patch-android.js && npx cap sync android",
+    "patch": "node scripts/patch-android.js",
+    "sync": "npx cap sync android",
+    "open": "npx cap open android",
+    "preview": "npx --yes serve www -l 5173"
+  },
+  "dependencies": {
+    "@capacitor-community/speech-recognition": "^7.0.1",
+    "@capacitor/android": "^8.5.3",
+    "@capacitor/core": "^8.5.3"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^8.5.3"
+  }
+}

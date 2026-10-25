@@ -1,0 +1,8 @@
+{
+	"appId": "com.jaago.app",
+	"appName": "Jaago",
+	"webDir": "www",
+	"android": {
+		"backgroundColor": "#0B1020"
+	}
+}
