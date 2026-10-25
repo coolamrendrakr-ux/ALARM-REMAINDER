@@ -21,7 +21,7 @@ jobs:
           java-version: 21
 
       - name: Unzip project
-        run: unzip -o -q jaago-alarm-app.zip
+        run: unzip -o -q jaago-alarm-app-3.zip
 
       - name: Install packages
         working-directory: jaago
